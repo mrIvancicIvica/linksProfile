@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 400px;
+  height: 600px;
+  background-color: #212121;
+  border-radius: 10px;
+}
+.name {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(168, 168, 168);
+  margin-bottom: 5px;
+}
+
+.desc {
+  color: rgb(172, 246, 23);
+  margin-bottom: 10px;
+}
+
+.image {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 30px auto;
+}
+
+.skills {
+  font-family: 'Roboto';
+  font-size: small;
+  color: rgb(168, 168, 168);
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+.bttns {
+display: flex;
+flex-direction: column;
+width: 350px;
+margin: 0px auto;
+
+
+}
+
+button {
+    margin:7px;
+    background-color: rgb(50, 50, 50);
+    border: none;
+    padding: 12px;
+    color: rgb(168, 168, 168);
+    border-radius: 10px;
+    
+}
+
+button:hover {
+    background-color: rgb(122, 183, 1);
+    cursor: pointer;
+    color: black;
+}
